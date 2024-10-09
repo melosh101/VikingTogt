@@ -11,4 +11,4 @@ FROM oven/bun AS runner
 
 COPY --from=builder /builder/dist .
 
-CMD ["bun run serve"]
+CMD ["bun run serve -s dist"]
