@@ -7,7 +7,7 @@ export default function Header() {
             <h1>Ravens Oath</h1>
             <ul>
                 <li><a href="./">Home</a></li>
-                <li><a href="">Clan Backstory</a></li>
+                <li><a href="/backstory">Clan Backstory</a></li>
                 <li><a href="./recruitment/">Recruitment</a></li>
                 <li><a href="./shop/">Shop</a></li>
             </ul>
