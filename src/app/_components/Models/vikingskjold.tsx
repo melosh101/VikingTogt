@@ -21,7 +21,7 @@ export function Vikingeskjold(props: GroupProps) {
         material={materials.WhiteOakSolidNaturalMediumGloss}
         scale={0.01}
       >
-        <Decal
+        {/* <Decal
             debug
             position={[0,0,2]}
             rotation={[0,0,0]}
@@ -30,7 +30,7 @@ export function Vikingeskjold(props: GroupProps) {
         >
             <meshStandardMaterial map={colormap}/>
 
-        </Decal>
+        </Decal> */}
       </mesh>
       <mesh
         castShadow
