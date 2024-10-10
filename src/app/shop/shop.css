@@ -1,0 +1,28 @@
+#products{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.product {
+    margin: 20px;
+}
+
+.product img {
+    width: 300px;
+    height: auto;
+}
+
+.product-description {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+
+button {
+    padding: 10px;
+    background-color: #3b3a30;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
