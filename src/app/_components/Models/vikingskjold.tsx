@@ -9,7 +9,7 @@ export function Vikingeskjold(props: GroupProps) {
   const colormap = useTexture("/Shield_Decal.png")
   const meshRef = useRef<Group>(null!)
 
-  useFrame((state, delta) => (meshRef.current.rotation.y += delta))
+  useFrame((state, delta) => (meshRef.current.rotation.y += delta /2))
   
   return (
     <group {...props} dispose={null} ref={meshRef}>
