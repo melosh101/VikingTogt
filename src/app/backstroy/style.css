@@ -1,0 +1,87 @@
+body {
+    font-family: 'Times New Roman', serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header {
+    background-color: #3b3a30;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+}
+
+.logo img {
+    width: 8vw;
+    height: auto;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    font-family: 'norse';
+    font-style: normal;
+    font-weight: 700;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family:'nordica';
+    font-style: normal;
+    font-weight: 300;
+}
+
+ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+footer {
+    background-color: #3b3a30;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100vw;
+    font-family:'nordica';
+    font-style: normal;
+    font-weight: 300;
+}
+.backstory-section {
+    padding: 20px;
+    background-color: #f9f8f5;
+    margin: 20px;
+    border-radius: 5px;
+    line-height: 1.6;
+}
+
+.backstory-section h2 {
+    font-size: 2rem;
+    text-align: center;
+    font-family:'nordica';
+    font-style: normal;
+    font-weight: 300;
+}
+#backstoryTxt{
+    font-family:'nordica';
+    font-style: normal;
+    font-weight: 300;
+}
+main{
+    flex-grow: 1;
+}
